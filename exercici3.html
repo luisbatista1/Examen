@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">  
+    <head>
+     <style> 
+        fieldset{
+            border:2px solid black ;
+            
+            
+        }
+
+        form{
+            border:2px ;
+            margin-left:25% ;
+            
+        }
+
+
+     </style>
+     <meta charset="Examen">
+    </head>
+    <body>
+        <br/>
+        <form style="width: 40%; " action="http://ptsv2.com/t/smx2m08/post" method="post">
+        <form action="http://ptsv2.com/t/smx2m08/post" method="post">
+            <fieldset>
+                <legend><b><u>Informacion Basica</b></u></legend>
+                Nombre <br/>
+                <input type="text" name="nombre value=" />
+                <br/>
+                <label for="descripcion">Descripcion</label> <br/>
+                <textarea id="descripcion" name="descripcion"></textarea>
+                <br/>
+                <input type="checkbox" name="Añadir contador de vistas" value="Añadir" /><b>A&ntildeadir contador de visitas</b>
+            </fieldset>  
+            <br/>
+            <fieldset>
+                <legend><b><u>Datos economicos</b></u></legend>
+                Precio<input type="text" name="precio" /> €
+                <label for="impuestos"><b>Impuestos</b></label>
+                 <select id="impuestos" name="impuestos">
+                 <option value="" selected="selected">- selecciona -</option>
+                 <option value="4%">4%</option>
+                 <option value="10%">10%</option>
+                 <option value="21%">21%</option>
+                 </select> 
+                 <br/>
+                 <br/>
+                 <b>Promocion</b>
+                  <br/>
+                 <input type="radio" name="Ninguno" value="Ninguno" /><b>Ninguno</b>
+                  <br/>
+                  <input type="radio" name="Transporte gratuito" value="Transporte gratuito" /><b>Transporte gratuito</b>
+                  <br/>
+                  <input type="radio" name="Descuento" value="Descuento" /><b>Descuento 5%</b>
+            </fieldset>  
+            <br/>
+            <input type="submit" value="Enviar" />
+            <input type="submit" value="Borrar" />
+         
+            
+    
+               
+        </form>
+    </body> 
+    </head>
+</html>
